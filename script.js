@@ -681,7 +681,78 @@ nombre: "Mix de Frutos Secos",
     categoria: "Más Productos",
     precio: null
 },
-
+{
+    nombre: "Llaveros",
+    imagen: "WhatsApp Image 2026-08-24 at 23.23.07.jpeg",
+    categoria: "Más Productos",
+    precio: null
+},
+{
+    nombre: "Leche La Serenísima",
+    imagen: "WhatsApp Image 2026-08-24 at 23.24.07.jpeg",
+    categoria: "Más Productos",
+    precio: null
+},
+{
+    nombre: "Dulce de leche La Serenísima",
+    imagen: "WhatsApp Image 2026-08-24 at 23.24.29.jpeg",
+    categoria: "Más Productos",
+    precio: "$3.000"
+},
+{
+    nombre: "Té y Mate Cocido",
+    imagen: "WhatsApp Image 2026-08-24 at 23.24.58.jpeg",
+    categoria: "Más Productos",
+    precio: null
+},
+{
+    nombre: "Yerba Playadito",
+    imagen: "WhatsApp Image 2026-08-24 at 23.25.26.jpeg",
+    categoria: "Más Productos",
+    precio: null
+},
+{
+    nombre: "Yerba Canarias",
+    imagen: "WhatsApp Image 2026-08-24 at 23.25.46.jpeg",
+    categoria: "Más Productos",
+    precio: null
+},
+{
+    nombre: "Mate Listo Taragüi",
+    imagen: "WhatsApp Image 2026-08-24 at 23.26.04.jpeg",
+    categoria: "Más Productos",
+    precio: "$5.000"
+},
+{
+    nombre: "Mate Listo Taragüi Surtido",
+    imagen: "WhatsApp Image 2026-08-24 at 23.26.19.jpeg",
+    categoria: "Más Productos",
+    precio: null
+},
+{
+    nombre: "Artículos Varios",
+    imagen: "WhatsApp Image 2026-08-24 at 23.27.00.jpeg",
+    categoria: "Más Productos",
+    precio: null
+},
+{
+    nombre: "Cepillos Colgate",
+    imagen: "WhatsApp Image 2026-08-24 at 23.27.40.jpeg",
+    categoria: "Más Productos",
+    precio: "$2.000"
+},
+{
+    nombre: "Desodorantes Dove y Axe",
+    imagen: "WhatsApp Image 2026-08-24 at 23.27.59.jpeg",
+    categoria: "Más Productos",
+    precio: null
+},
+{
+    nombre: "Artículos Varios",
+    imagen: "WhatsApp Image 2026-08-24 at 23.28.29.jpeg",
+    categoria: "Más Productos",
+    precio: null
+},
 {
     nombre: "Helados Arcor",
     imagen: "WhatsApp Image 2026-08-22 at 20.06.48.jpeg",
@@ -702,7 +773,7 @@ const tituloCategoria = document.getElementById("titulo-categoria");
 const botonesCategorias = document.querySelectorAll(".categorias button");
 const destacados = document.getElementById("destacados");
 
-const numeroWhatsApp = "5491112345678";
+const numeroWhatsApp = "541559368231";
 
 function mostrarProductos(categoria = "Todos") {
     
