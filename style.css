@@ -499,16 +499,23 @@ footer p {
 }
 
 .destacado {
+    text-decoration: none;
+    color: inherit;
+    cursor: pointer;
     background-color: white;
     border-radius: 15px;
     padding: 15px;
     text-align: center;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
     transition: transform 0.2s ease;
+    border: none;
+    width: 100%;
+    font-family: inherit;
 }
 
 .destacado:hover {
     transform: translateY(-5px);
+    box-shadow: 0 8px 18px rgba(0, 0, 0, 0.12);
 }
 
 .destacado img {

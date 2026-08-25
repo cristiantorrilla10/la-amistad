@@ -886,3 +886,25 @@ btnCatalogo.addEventListener("click", () => {
     });
 
 });
+const tarjetasDestacadas = document.querySelectorAll(".destacado");
+
+tarjetasDestacadas.forEach(tarjeta => {
+
+    tarjeta.addEventListener("click", (e) => {
+
+        e.preventDefault();
+
+        const categoria = tarjeta.dataset.categoria;
+
+        marcarCategoriaActiva(categoria);
+
+        mostrarProductos(categoria);
+
+        tituloCategoria.scrollIntoView({
+            behavior: "smooth",
+            block: "start"
+        });
+
+    });
+
+});
